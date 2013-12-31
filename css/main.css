@@ -1,0 +1,235 @@
+
+/*
+	This is the top part style of the page.
+*/
+#menu{
+	width: 897px;
+	margin: auto;
+	height: 30px;
+	font-size: 19px;
+}
+
+/*
+	This contains the contents of the page excluding menu.
+*/	
+.container{
+	width:905px;
+	height:1200px;
+	border-style: inset;
+	border-width: 3px;
+	margin: auto;
+	background-color: #BFDEC1;
+	position: relative;
+	font-size: 16px;
+}
+
+/*
+	Head part of the page.
+*/
+.header{
+	//height: 50px;
+}
+
+/*
+	Subpart of head part.
+*/
+.header01{
+	margin: 0px auto;
+	width: 800px;
+	//height: 70px;
+	text-align: center;
+	padding: 20px;
+	background-color: #3DD447;
+	font-size: 40px;
+	//background: radial-gradient(#0DB8A4, #E1F5F3 70%);
+}
+
+.header01:hover{
+	font-weight: bold;
+	cursor: pointer;
+}
+
+/*
+	Subpart of head part.
+*/
+.header02{
+	font-size: 21px;
+	margin: 9px auto;
+	width: 813px;
+	height: 50px;
+	left: 150px;
+	background-color: #1AAEE8;
+	display: block;
+	background: radial-gradient(#0DB8A4, #E1F5F3 70%);
+}
+
+/*
+	Subpart of head part.
+*/
+.header03{
+	width: 400px;
+	text-align: center;
+	margin: 20px auto;
+	font-size: 30px;
+	clear: both;
+	background-color: #1AAEE8;
+}
+
+/*
+	This is for lists of head part.
+*/
+.header02 ul{
+	margin: 0px 0px 0px 15px;
+	padding: 7px;
+}
+
+/*
+	This is the lists of head part.
+*/
+.header02 ul li{
+	width: 97px;
+	float: left;
+	padding: 0;
+	list-style: none;
+}
+
+a:link{
+	text-decoration: none;
+}
+
+/*
+	This is for look and feel of the lists.
+*/
+.header02 ul li:hover ul li{
+	width: 90px;
+	height: 20px;
+	display: inline-block;
+	top: 50px;
+	float: left;
+}
+
+/*
+	This is for subpart of the head part.
+*/
+.header02 ul li ul{
+	position: absolute;
+	top: 95px;
+	left: 44px;
+	background-color: #95D6F0;
+	width:790px;
+}
+
+.header02 ul li ul li{
+	display: none;
+}
+
+/*
+	This is for the left part of the page.
+*/
+.lefter{
+	width: 11%;
+	height: 997px;
+	left: 0px;
+	top: 90px;
+	background-color: #EB9FED;
+	position: absolute;
+	text-indent: 5px;
+	padding-top: 10px;
+}
+
+/*
+	This is for the left part lists of the page.
+*/
+.lefter ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+.lefter ul li{
+	list-style-type: none;
+	font-weight: bold;
+	width: 100px;
+	font-size: 23px;
+}
+
+.lefter ul li ul{
+	margin: 0px;
+	text-indent: 10px;
+}
+
+.lefter ul li ul li{
+	font-size: 17px;
+	font-weight: normal;
+	cursor: pointer;
+}
+
+.center{
+	width: 700px;
+	height: 997px;
+	margin-left: 105px;
+	top: 91px;
+	position: absolute;
+}
+
+/*
+	This is for right part of the page.
+*/
+.righter{
+	width: 11%;
+	height: 1007px;
+	position: absolute;
+	right: 0px;
+	top: 90px;
+	background-color: #CBE810;
+}
+
+.right-menu{
+	font-size: 21px;
+	width: 92px;
+	height: 53px;
+	margin: 3px auto;
+	text-align: center;
+	background-color: #BFC1F5;
+}
+
+/*
+	This styles the contents of the page.
+*/
+.box{
+	width: 79px;
+	height: 80px;
+	border-style: outset;
+	border-width: 2px;
+	float: left;
+	margin: 6px;
+	padding: 5px 2px 2px 2px;
+	text-align: center;
+	background-color: #FA970C;
+}
+
+.num-nav{
+	margin: 10px auto;
+	//background-color: red;
+	width: 200px;
+}
+
+/*
+	This is for the bottom part of the page.
+*/
+.footer{
+	background-color: #F0AB0A;
+	background: radial-gradient(#BAD93D, #BFA511 30%);
+	width: 905px;
+	height: 100px;
+	z-index: 100;
+	position: absolute;
+	top: 1100px;
+	font-size: 17px;
+}
+.sub-footer{
+	width: 790px;
+	margin: 10px auto;
+}
+.clear-both{
+	clear: both;
+}
