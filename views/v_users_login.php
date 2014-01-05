@@ -4,7 +4,7 @@
         This is the head part of the page.
     -->
     <div class = 'header'>
-        <div class = 'header03'>Log in</div>
+        <div class = 'header03'>로 그 인</div>
     </div>
 
     <!--
@@ -14,9 +14,9 @@
         <div class='center02'>
             <!-- login interface -->
             <form method='POST' action='/users/p_login' class='form-standard'>
-                Email<br>
+                E-mail<br>
                 <input type='text' name='email' required><br><br>
-                Password<br>
+                비 밀 번 호<br>
                 <input type='password' name='password' required><br><br>
                 <?php if($error == 'error'): ?>
                 <div class='error'>
@@ -36,7 +36,7 @@
                 </div><br>
                 <?php endif; ?>
 
-                <input type='submit' value='Log in'>
+                <input type='submit' value='로 그 인'>
             </form>
         </div>
     </div>

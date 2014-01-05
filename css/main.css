@@ -35,13 +35,13 @@
 */
 .header01{
 	margin: 0px auto;
-	width: 800px;
+	width: 870px;
 	//height: 70px;
 	text-align: center;
 	padding: 20px;
-	background-color: #3DD447;
+	background-color: #17AB0F;
 	font-size: 40px;
-	//background: radial-gradient(#0DB8A4, #E1F5F3 70%);
+	//background: radial-gradient(#17AB0F 90%  , #DDF2CB);
 }
 
 .header01:hover{
@@ -58,9 +58,12 @@
 	width: 813px;
 	height: 50px;
 	left: 150px;
-	background-color: #1AAEE8;
+	//background-color: #1AAEE8;
 	display: block;
-	background: radial-gradient(#0DB8A4, #E1F5F3 70%);
+	//background: radial-gradient(#0DB8A4, #B1FAE4 70%);
+	background: linear-gradient(#B1FAE4 10% , #0DB8A4 );
+	border:2px solid #a1a1a1;
+	border-radius:21px;
 }
 
 /*
@@ -126,11 +129,12 @@ a:link{
 /*
 	This is for the left part of the page.
 */
+
 .lefter{
 	width: 11%;
 	height: 997px;
 	left: 0px;
-	top: 90px;
+	top: 103px;
 	background-color: #EB9FED;
 	position: absolute;
 	text-indent: 5px;
@@ -140,6 +144,7 @@ a:link{
 /*
 	This is for the left part lists of the page.
 */
+
 .lefter ul{
 	margin: 0px;
 	padding: 0px;
@@ -167,7 +172,7 @@ a:link{
 	width: 700px;
 	height: 997px;
 	margin-left: 105px;
-	top: 91px;
+	top: 103px;
 	position: absolute;
 }
 
@@ -179,7 +184,7 @@ a:link{
 	height: 1007px;
 	position: absolute;
 	right: 0px;
-	top: 90px;
+	top: 103px;
 	background-color: #CBE810;
 }
 
@@ -190,6 +195,8 @@ a:link{
 	margin: 3px auto;
 	text-align: center;
 	background-color: #BFC1F5;
+	border:2px solid #3F8F80;
+	border-radius:17px;
 }
 
 /*
@@ -205,6 +212,8 @@ a:link{
 	padding: 5px 2px 2px 2px;
 	text-align: center;
 	background-color: #FA970C;
+	border-radius:17px;
+	border:2px solid #D40BBD;
 }
 
 .num-nav{
@@ -227,8 +236,10 @@ a:link{
 	font-size: 17px;
 }
 .sub-footer{
-	width: 790px;
-	margin: 10px auto;
+	width: 590px;
+	margin: 20px auto;
+	text-align: center;
+
 }
 .clear-both{
 	clear: both;

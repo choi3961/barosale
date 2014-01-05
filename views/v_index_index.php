@@ -29,6 +29,57 @@
 		This is the left part of the landing page.
 	-->
 	<div class = 'lefter'>
+
+<!--
+		<ul id="demo1" class="nav">
+		    <li class="active"><a href="#">Home</a></li>
+		    <li><a href="#">News and Events</a>
+		        <ul>
+		            <li><a href="#">Hot News</a></li>
+		            <li><a href="#">RSS Feeds</a></li>
+		            <li><a href="#">Peach Events</a></li>
+		            <li><a href="#">User Groups</a></li>
+		        </ul>
+		    </li>
+		    <li><a href="#">About</a>
+		        <ul>
+		            <li><a href="#">Public Relations</a></li>
+		            <li><a href="#">Investors</a></li>
+		            <li><a href="#">Working at Peach</a></li>
+		            <li><a href="#">Environment</a></li>
+		            <li><a href="#">Contact Us</a>
+		                <ul>
+		                    <li><a href="#">Support and Service</a></li>
+		                    <li><a href="#">Product Feedback</a></li>
+		                    <li><a href="#">Website Feedback</a></li>
+		                </ul>
+		            </li>
+		            <li><a href="#">Working with Peach</a>
+		                <ul>
+		                    <li><a href="#">Procurement</a></li>
+		                    <li><a href="#">Supplier Responsibility</a></li>
+		                </ul>
+		            </li>
+		        </ul>
+		    </li>
+		    <li><a href="#">Where to Buy</a>
+		        <ul>
+		            <li><a href="#">Where can I buy Peach products?</a></li>
+		            <li><a href="#">Peach Online Store</a></li>
+		            <li><a href="#">Peach Store for Business</a></li>
+		            <li><a href="#">Peach Store for Education</a></li>
+		            <li><a href="#">Peach Online Store Country Selector</a></li>
+		            <li><a href="#">Peach Retail</a></li>
+		            <li><a href="#">Find a Reseller</a></li>
+		            <li><a href="#">Peach Financial Services</a></li>
+		            <li><a href="#">Peach Rebates</a></li>
+		        </ul>
+		    </li>
+		</ul>
+-->
+
+<!--  to modify             -->
+
 		<ul>
 			<li class = 'category01'>과일류
 				<ul class = 'cat02'>
@@ -97,7 +148,7 @@
 		This is right part of the landing page.
 	-->
 	<div class = 'righter'>
-		<div class = 'right-menu'><a href="/producers/farmers_posts">Farmers&#39; posts</a></div>
+		<div class = 'right-menu'><a href="/producers/farmers_posts">농 산 물 홍보보기</a></div>
 	</div>
 
 	<!--
@@ -105,6 +156,9 @@
 	-->	
 	<div class = 'footer'>
 		<div class = 'sub-footer'>
+			경기도 양주시 엄상동길 16-20 동광 204<br>
+			email : choi3961@naver.com <br>
+			© copyright reserved
 
   		</div>
 	</div>

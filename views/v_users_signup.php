@@ -5,7 +5,7 @@
         This is the head part of the page.
     -->
     <div class = 'header'>
-        <div class = 'header03'>Sign up</div>
+        <div class = 'header03'>회 원 가 입</div>
     </div>
 
     <!--
@@ -15,13 +15,15 @@
         <div class='center02'>
             <!-- sign up interface page -->
             <form method='POST' action='/users/p_signup' class='form-standard'>
-                First Name <span class = 'required'>*</span><br>
+                성 명 <span class = 'required'>*</span><br>
                 <input type='text' name='first_name' required><br><br>
+            <!--
                 Last Name <span class = 'required'>*</span><br>
                 <input type='text' name='last_name' required><br><br>
-                Email <span class = 'required'>*</span><br>
+            -->
+                E-mail <span class = 'required'>*</span><br>
                 <input type='text' name='email' required> <span id = 'email'></span><br><br>
-                Password <span class = 'required'>*</span><br>
+                비 밀 번 호 <span class = 'required'>*</span><br>
                 <input type='password' name='password' required> <span id = 'password'></span><br><br>
 
                 <?php if($error == 'error'): ?>
@@ -35,7 +37,7 @@
                 </div><br>
                 <?php endif; ?>
                 
-                <input type='submit' value = 'submit'>
+                <input type='submit' value = '가 입 신 청'>
             </form>
         </div>
     </div>

@@ -3,19 +3,19 @@
 -->
 <div class = 'container'>
     <div class = 'header'>
-        <div class = 'header03'>Site-register</div>
+        <div class = 'header03'>사이트등록</div>
     </div>
     <div class = 'container02'>
         <div class = 'center02'>
         <!-- sign up interface page -->
         <form method='POST' action='/producers/p_sites_register' class='form-standard'>
-            Site name <span class = 'required'>*</span><br>
+            사이트 이름 <span class = 'required'>*</span><br>
             <input type='text' name='name' required><br><br>
-            Domain name <span class = 'required'>*</span><br>
+            사이트 주소<span class = 'required'>*</span><br>
             <input type='text' name='domain_address' required> <span id = 'domain_address'></span><br><br>
  
             <select name = 'local' required>
-                <option value=''>**select**</option>
+                <option value=''>**지역**</option>
                 <option value='강원도'>강원도</option>
                 <option value='경기도'>경기도</option>
                 <option value='충청북도'>충청북도</option>
@@ -27,7 +27,7 @@
             </select> <span class = 'required'>*</span>
 
             <select name = 'category02' required>
-                <option value=''>**select**</option>
+                <option value=''>**농산품**</option>
                 <option value='사과'>사과</option>
                 <option value='배'>배</option>
                 <option value='토마토'>토마토</option>
@@ -65,7 +65,7 @@
             </div><br>
             <?php endif; ?>
             
-            <input type='submit' value = 'submit'>
+            <input type='submit' value = '등 록 신 청'>
         </form>
         </div>
     </div>

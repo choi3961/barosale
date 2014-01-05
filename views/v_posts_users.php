@@ -5,7 +5,7 @@
     This is head part of the page.
     -->
     <div class = 'header'>
-        <div class = 'header03'>Users</div>
+        <div class = 'header03'>농 산 물 생 산 자</div>
     </div>
 
     <!--
@@ -15,8 +15,8 @@
         <table class = 'table table-striped'>
             <thead>
                 <tr>
-                    <th>Name</th>
-                    <th>Choice</th>
+                    <th>성 명</th>
+                    <th>선 택 </th>
                 </tr>
             </thead>
             <tbody>
@@ -26,10 +26,10 @@
                     <td>
                         <!-- If there exists a connection with this user, show a unfollow link -->
                         <?php if(isset($connections[$user['user_id']])): ?>
-                        <a href='/posts/unfollow/<?=$user['user_id']?>'>Unfollow</a>
+                        <a href='/posts/unfollow/<?=$user['user_id']?>'>다 음 에 보 기 </a>
                         <!-- Otherwise, show the follow link -->
                         <?php else: ?>
-                        <a href='/posts/follow/<?=$user['user_id']?>'>Follow</a>
+                        <a href='/posts/follow/<?=$user['user_id']?>'>보 기 </a>
                         <?php endif; ?>
                     </td>
                 </tr>

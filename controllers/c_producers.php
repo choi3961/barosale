@@ -61,7 +61,7 @@ class producers_controller extends base_controller{
     */
     public function local_part($part){
         //$temp = $_POST['local'];
-        //echo $temp;
+        //echo "hello";
         $q="SELECT 
             domain_address,
             name
@@ -70,6 +70,7 @@ class producers_controller extends base_controller{
 
         # Run the query
         $posts = DB::instance(DB_NAME)->select_rows($q);
+        if(!$posts){ echo "posts";}
 
         $this->template->content = View::instance('v_index_index');
         $this->template->content->content02 = View::instance('v_producers_local_part');
