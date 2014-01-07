@@ -5,10 +5,10 @@
 	<?php 
 		$num = 0;
 		$nav_num=0; 
-		$num2 = 1;
+		$num2 = 0;
 	?>
 	<?php foreach($local as $site): ?>
-		<?php if($num <61): ?>
+		<?php if($num <63): ?>
 			<a href="<?=$site['domain_address']?>" target="_blank"><div class = 'box'><?=$site['name'] ?></div></a>
 	 	<?php endif; ?>
 	 	<?php	$num++; ?>
@@ -20,7 +20,7 @@
 		<?php if ($num2%63==0):?>
 
 		<?php $temp = $num2/63; ?>
-		<a href="/producers/local_part/<?=$temp?>"> &#60;<?= $temp; ?>&#62; </a>  
+		<a href="/producers/local_part/<?=$temp+1?><?=$part?>"> &#60;<?= $temp+1; ?>&#62; </a>  
 		<?php endif; ?>	
 
 		<?php $num2++;?>

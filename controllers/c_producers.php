@@ -60,22 +60,25 @@ class producers_controller extends base_controller{
         It works when the navigator of numbers at the bottom is clicked.
     */
     public function local_part($part){
-        //$temp = $_POST['local'];
-        //echo "hello";
+        //echo $part;
+        $local_part = substr($part, 0,1);
+ 
+        $local = substr($part, 1);
+
         $q="SELECT 
             domain_address,
             name
             FROM sites
-            WHERE local = 'local';";
+            WHERE local = '$local';";
 
         # Run the query
         $posts = DB::instance(DB_NAME)->select_rows($q);
-        if(!$posts){ echo "posts";}
 
         $this->template->content = View::instance('v_index_index');
         $this->template->content->content02 = View::instance('v_producers_local_part');
         $this->template->content->content02->kk=$posts;
-        $this->template->content->content02->loc_num = $part;
+        $this->template->content->content02->loc_num = $local_part;
+        $this->template->content->content02->local = $local;
         echo $this->template;
     }
 

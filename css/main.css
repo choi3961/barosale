@@ -55,27 +55,29 @@
 .header02{
 	font-size: 21px;
 	margin: 9px auto;
-	width: 813px;
+	width: 750px;
 	height: 50px;
-	left: 150px;
+	//left: 150px;
 	//background-color: #1AAEE8;
 	display: block;
 	//background: radial-gradient(#0DB8A4, #B1FAE4 70%);
 	background: linear-gradient(#B1FAE4 10% , #0DB8A4 );
 	border:2px solid #a1a1a1;
 	border-radius:21px;
+	text-align: center;
+	font-weight: bold;
 }
 
 /*
 	Subpart of head part.
 */
 .header03{
-	width: 400px;
+	width: 350px;
 	text-align: center;
-	margin: 20px auto;
+	margin: 10px auto;
 	font-size: 30px;
 	clear: both;
-	background-color: #1AAEE8;
+	//background-color: #1AAEE8;
 }
 
 /*
@@ -90,7 +92,7 @@
 	This is the lists of head part.
 */
 .header02 ul li{
-	width: 97px;
+	width: 99px;
 	float: left;
 	padding: 0;
 	list-style: none;
@@ -119,7 +121,7 @@ a:link{
 	top: 95px;
 	left: 44px;
 	background-color: #95D6F0;
-	width:790px;
+	width:850px;
 }
 
 .header02 ul li ul li{
