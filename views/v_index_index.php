@@ -108,7 +108,6 @@
 				<ul>
 					<li class = 'category02' id = '30'><a href="/producers/category02/쌀">쌀</a></li>
 					<li class = 'category02'><a href="/producers/category02/보리">보리</a></li>
-					<li class = 'category02'><a href="/producers/category02/콩">콩</a></li>
 					<li class = 'category02'><a href="/producers/category02/고추">고추</a></li>
 				</ul>
 			</li>
