@@ -35,13 +35,16 @@
 */
 .header01{
 	margin: 0px auto;
-	width: 870px;
-	//height: 70px;
+	width: 910px;
+	height: 120px;
 	text-align: center;
-	padding: 20px;
+	padding: 1px;
 	background-color: #17AB0F;
-	font-size: 45px;
+	font-size: 23px;
 	//background: radial-gradient(#17AB0F 90%  , #DDF2CB);
+}
+.header01 span{
+	font-size: 12px;
 }
 
 .header01:hover{
@@ -53,9 +56,9 @@
 	Subpart of head part.
 */
 .header02{
-	font-size: 27px;
+	font-size: 21px;
 	margin: 9px auto;
-	width: 750px;
+	width: 850px;
 	height: 50px;
 	//left: 150px;
 	//background-color: #1AAEE8;
@@ -65,7 +68,7 @@
 	border:2px solid #a1a1a1;
 	border-radius:21px;
 	text-align: center;
-	font-weight: bold;
+	//font-weight: bold;
 	//padding-top: 10px;
 }
 
@@ -246,4 +249,8 @@ a:link{
 }
 .clear-both{
 	clear: both;
+}
+.float-left{
+	float: left;
+	font-size: 21px;
 }

@@ -250,5 +250,24 @@ class producers_controller extends base_controller{
         # Render the View
         echo $this->template;        
     }    
+
+    public function product_input() {
+        $this->template->content = View::instance('v_producers_product_input');
+        echo $this->template;
+    }        
+
+    public function p_product_input() {
+
+        # Insert this user into the database
+        $user_id = DB::instance(DB_NAME)->insert('products', $_POST);
+
+        echo "your product is registered";
+    }        
+
+    public function product_show() {
+        $this->template->content = View::instance('v_producers_product_show');
+        echo $this->template;
+        //echo "show";
+    }        
 }
 

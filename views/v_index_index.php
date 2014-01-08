@@ -11,8 +11,6 @@
 	-->
 	<div class = 'header'>
 		<div class = 'header02'>
-			농산물 생산자 사이트 무료 등록
-			<!--
 			<ul class = 'header02-ul'>
 				<li><a href="/producers/local/강원도" class = 'header02-local'>강원도</a></li>
 				<li><a href="/producers/local/경기도" class = 'header02-local'>경기도</a></li>
@@ -22,9 +20,7 @@
 				<li><a href="/producers/local/경상남도" class = 'header02-local'>경상남도</a></li>
 				<li><a href="/producers/local/전라북도" class = 'header02-local'>전라북도</a></li>
 				<li><a href="/producers/local/전라남도" class = 'header02-local'>전라남도</a></li>
-			
 			</ul>
-			-->
 		</div>
 	</div><br>
 	<hr>
@@ -152,6 +148,7 @@
 	-->
 	<div class = 'righter'>
 		<div class = 'right-menu'><a href="/producers/farmers_posts">농 산 물 홍보보기</a></div>
+		<div class = 'right-menu'><a href="/producers/category02/체험마을">농촌 체험마을</a></div>
 	</div>
 
 	<!--

@@ -18,6 +18,10 @@
         <a href='/producers/sites_register' class = 'menu-producers'>사이트등록</a> |
         <a href='/users/signup' class = 'menu-users'>회원가입</a> |
         <a href='/users/login' class = 'menu-users'>로그인</a> |
+        <!--
+        <a href='/producers/product_input' class = 'menu-users'>product_input</a> |
+        <a href='/producers/product_show' class = 'menu-users'>product_show</a> |
+        -->
         <?php if($user):?>
             <a href='/users/logout'>로그 아웃</a> |
             <a href='/posts/add' class = 'menu-posts'>홍보하기</a> |
@@ -28,7 +32,8 @@
         <!--<a href='/administrator/upload' class = 'menu-users'>administrator</a> |-->
     </div>
     <div class = 'header01'>
-            <a href="/">농산물 직거래 장터</a>
+            <h1><a href="/">전국 농산물 직거래 센터</a></h1>
+            <span> 수수료무,  중간유통 무,  외국농산물 무</span>
     </div>
 	<?php if(isset($content)) echo $content; ?>
 
