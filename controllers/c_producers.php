@@ -46,7 +46,7 @@ class producers_controller extends base_controller{
         # Run the query
         $posts = DB::instance(DB_NAME)->select_rows($q);
 
-        $this->template->title = "Direct Deal";
+        $this->template->title = "전국 도별 농산물 직거래";
         $this->template->content = View::instance('v_index_index');
         $this->template->content->content02 = View::instance('v_producers_local');
         $this->template->content->content02->local=$posts;
@@ -132,7 +132,7 @@ class producers_controller extends base_controller{
         of the products.
     */
     public function category02($part){
-        $this->template->title   = "Direct Deal";
+        $this->template->title   = "품목별 농산물 직거래";
         $this->template->content = View::instance('v_index_index');
         $this->template->content->content02 = View::instance('v_producers_category02');//'v_producers_category02'
         //$temp = $_POST['category02'];

@@ -20,7 +20,7 @@ class index_controller extends base_controller {
 			$this->template->content->content02 = View::instance('v_landing_page');
 			
 		# Now set the <title> tag
-			$this->template->title = "농산물 직거래";
+			$this->template->title = "전국 농산물 직거래";
 	
 		# CSS/JS includes
 			/*
