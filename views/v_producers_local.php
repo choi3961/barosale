@@ -1,6 +1,10 @@
 <!--
 	This shows the farmers' sites according to the local area.
 -->
+<div class = 'local-title'>
+	<?php echo $part ?>
+	농산물 직거래 사이트 모음
+</div>
 <div>
 	<?php 
 		$num = 0;

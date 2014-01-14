@@ -22,6 +22,11 @@
 				<li><a href="/producers/local/전라남도" class = 'header02-local'>전라남도</a></li>
 			</ul>
 		</div>
+	<!--
+		<div class = 'header021'>
+			충청북도 농산물 직거래 사이트 모음
+		</div>
+	-->
 	</div><br>
 	<hr>
 

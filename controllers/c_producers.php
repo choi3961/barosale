@@ -135,6 +135,7 @@ class producers_controller extends base_controller{
         $this->template->title   = "품목별 농산물 직거래";
         $this->template->content = View::instance('v_index_index');
         $this->template->content->content02 = View::instance('v_producers_category02');//'v_producers_category02'
+        $this->template->content->content02->part = $part;
         //$temp = $_POST['category02'];
 
         $q="SELECT 

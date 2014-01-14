@@ -75,6 +75,14 @@
 /*
 	Subpart of head part.
 */
+.header021{
+	margin: 0 auto;
+	text-align: center;
+}
+
+/*
+	Subpart of head part.
+*/
 .header03{
 	width: 350px;
 	text-align: center;
@@ -203,6 +211,17 @@ a:link{
 	background-color: #BFC1F5;
 	border:2px solid #3F8F80;
 	border-radius:17px;
+}
+
+.local-title{
+	font-size: 17px;
+	text-align: center;
+	font-weight: bold;
+}
+.category02-title{
+	font-size: 17px;
+	font-weight: bold;
+	text-align: center;
 }
 
 /*

@@ -1,6 +1,9 @@
 <!--
 	This shows the farmers' sites according to the categories of the products.
 -->
+<div class = 'category02-title'>
+<?php echo $part?> 농산물 직거래 사이트 모음
+</div>
 <div>
 	<?php if(!$category02): ?>
 		<?php echo "Sorry, no data for now"; ?>
