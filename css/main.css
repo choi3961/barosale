@@ -191,6 +191,24 @@ a:link{
 }
 
 /*
+	This is for local title.
+*/
+.local-title{
+	font-size: 31px;
+	text-align: center;
+	font-weight: bold;
+}
+
+/*
+	This is for category02 title.
+*/
+.category02-title{
+	font-size: 31px;
+	font-weight: bold;
+	text-align: center;
+}
+
+/*
 	This is for right part of the page.
 */
 .righter{
@@ -213,16 +231,6 @@ a:link{
 	border-radius:17px;
 }
 
-.local-title{
-	font-size: 17px;
-	text-align: center;
-	font-weight: bold;
-}
-.category02-title{
-	font-size: 17px;
-	font-weight: bold;
-	text-align: center;
-}
 
 /*
 	This styles the contents of the page.

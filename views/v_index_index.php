@@ -161,7 +161,7 @@
 	-->	
 	<div class = 'footer'>
 		<div class = 'sub-footer'>
-			경기도 양주시 엄상동길 16-20 동광 204<br>
+			서울시 노원구 상계동 오피앙 1224<br>
 			email : choi3961@naver.com <br>
 			© copyright reserved
 

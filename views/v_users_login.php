@@ -32,7 +32,7 @@
 
                 <?php if($error == 'login'): ?>
                 <div class='error'>
-                    You have to log in.
+                    로그인 하시기 바랍니다.
                 </div><br>
                 <?php endif; ?>
 

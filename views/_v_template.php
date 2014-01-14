@@ -18,16 +18,17 @@
         <a href='/producers/sites_register' class = 'menu-producers'>사이트등록</a> |
         <a href='/users/signup' class = 'menu-users'>회원가입</a> |
         <a href='/users/login' class = 'menu-users'>로그인</a> |
+        <a href='/posts/add' class = 'menu-posts'>홍보하기</a> |
+        <a href='/posts/index' class = 'menu-posts'>홍보내용보기</a> |
+        <a href='/posts/mypage' class = 'menu-posts'>나의 게시물</a> |
+        <a href='/posts/users' class = 'menu-posts'>홍보 선택</a> |        
         <!--
         <a href='/producers/product_input' class = 'menu-users'>product_input</a> |
         <a href='/producers/product_show' class = 'menu-users'>product_show</a> |
         -->
         <?php if($user):?>
             <a href='/users/logout'>로그 아웃</a> |
-            <a href='/posts/add' class = 'menu-posts'>홍보하기</a> |
-            <a href='/posts/index' class = 'menu-posts'>홍보내용보기</a> |
-            <a href='/posts/mypage' class = 'menu-posts'>나의 게시물</a> |
-            <a href='/posts/users' class = 'menu-posts'>홍보 선택</a> |
+
         <?php endif;?>
         <!--<a href='/administrator/upload' class = 'menu-users'>administrator</a> |-->
     </div>

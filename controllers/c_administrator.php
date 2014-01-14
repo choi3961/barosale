@@ -115,7 +115,7 @@ class administrator_controller extends base_controller{
 	    	
 	    	echo $num;
 	    	$num++;
-	    	if($num<600){
+	    	if($num<593){
 	    		continue;
 	    	}
 	    	$site = $key['domain_address'];
