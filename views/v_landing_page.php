@@ -1,6 +1,9 @@
 <!--
 	This shows the contents of the landing page.
 -->
+<div class = 'local-title'>
+전국 농산물 직거래 사이트 모음
+</div>
 <div>
 	<?php 
 		$q = "select * from sites";

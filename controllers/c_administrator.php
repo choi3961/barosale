@@ -171,5 +171,26 @@ class administrator_controller extends base_controller{
 			}
 		}
 	}
+
+	/*
+		processing the database into csv file.
+	*/
+	public function db_to_csv(){
+		echo "hello";
+		$sql = "select * from sites";
+		$result = DB::instance(DB_NAME)->query($sql);
+
+		$file = "barosale.csv";
+		$fp = fopen($file, "w");
+
+
+		foreach($result as $re){
+			fputcsv($fp, $re);
+			//echo "<pre>";
+			//print_r($re);
+			//echo $re['name'];
+			//echo "</pre>";
+		}
+	}
 }
 ?>
