@@ -41,7 +41,7 @@ class producers_controller extends base_controller{
             domain_address,
             name
             FROM sites
-            WHERE local = '$part';";
+            WHERE local = '$part' order by rand();";
 
         # Run the query
         $posts = DB::instance(DB_NAME)->select_rows($q);
@@ -142,7 +142,7 @@ class producers_controller extends base_controller{
             domain_address,
             name
             FROM sites
-            WHERE category02 = '$part';";
+            WHERE category02 = '$part' order by rand();";
 
         # Run the query
         $posts = DB::instance(DB_NAME)->select_rows($q);

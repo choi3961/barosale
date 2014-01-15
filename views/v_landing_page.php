@@ -2,11 +2,11 @@
 	This shows the contents of the landing page.
 -->
 <div class = 'local-title'>
-전국 농산물 직거래 사이트 모음
+	전국 농산물 직거래 사이트 모음
 </div>
 <div>
 	<?php 
-		$q = "select * from sites";
+		$q = "select * from sites order by rand()";
 		$result = DB::instance(DB_NAME)->select_rows($q);
 		//$num_rows = mysqli_num_rows($result);
 		$num = 1;
