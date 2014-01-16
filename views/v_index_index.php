@@ -135,6 +135,20 @@
 			<li class = 'category01'>기타
 				<ul class = 'cat02'>
 					<li class = 'category02'><a href="/producers/category02/체험마을">체험마을</a></li>
+					<li class = 'category02'><a href="/producers/category02/고사리">고사리</a></li>
+					<li class = 'category02'><a href="/producers/category02/밤">밤</a></li>
+					<li class = 'category02'><a href="/producers/category02/마">마</a></li>
+					<li class = 'category02'><a href="/producers/category02/마늘">마늘</a></li>
+					<li class = 'category02'><a href="/producers/category02/장류">장류</a></li>
+					<li class = 'category02'><a href="/producers/category02/고추">고추</a></li>
+					<li class = 'category02'><a href="/producers/category02/콩">콩</a></li>
+					<li class = 'category02'><a href="/producers/category02/아스파라거스">아스파라거스</a></li>
+					<li class = 'category02'><a href="/producers/category02/벌꿀">벌꿀</a></li>
+					<li class = 'category02'><a href="/producers/category02/청국장">청국장</a></li>
+					<li class = 'category02'><a href="/producers/category02/꽃">꽃</a></li>
+					<li class = 'category02'><a href="/producers/category02/곶감">곶감</a></li>
+					<li class = 'category02'><a href="/producers/category02/선인장">선인장</a></li>
+					<li class = 'category02'><a href="/producers/category02/약초">약초</a></li>
 					<li class = 'category02'><a href="/producers/category02/기타">기타</a></li>
 				</ul>
 			</li>

@@ -9,6 +9,7 @@ class administrator_controller extends base_controller{
 
 		// This is for Authorization.
 		//////////////////////////////////
+		/*
 		if ((!isset($_SERVER['PHP_AUTH_USER'])) || (!isset($_SERVER['PHP_AUTH_PW']))) {
 		    header('WWW-Authenticate: Basic realm="Secured Area"');
 		    header('HTTP/1.0 401 Unauthorized');
@@ -24,6 +25,7 @@ class administrator_controller extends base_controller{
 		       //echo "<h1>Welcome Friends!</h1>";
 		    }
 		}
+		*/
 		//////////////////////////////////		
 	}
 
@@ -156,12 +158,12 @@ class administrator_controller extends base_controller{
 				$data = fgetcsv($handle);
 				$sql = "insert into sites set 
 					name = '$data[0]',
-					local = '$data[1]',
-					local02 = '$data[2]',
-					domain_address = '$data[3]',
+					domain_address = '$data[1]',
+					owner = '$data[2]',
+					local = '$data[3]',
+					local02 = '$data[4]',
 					category01 = '$data[5]',
-					category02 = '$data[6]',
-					owner = '$data[4]'
+					category02 = '$data[6]'
 					;";
 				
 				DB::instance(DB_NAME)->query($sql);
