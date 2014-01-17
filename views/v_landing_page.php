@@ -6,7 +6,7 @@
 </div>
 <div>
 	<?php 
-		$q = "select * from sites";
+		$q = "select * from sites order by rand()";
 		$result = DB::instance(DB_NAME)->select_rows($q);
 		//$num_rows = mysqli_num_rows($result);
 		$num = 1;

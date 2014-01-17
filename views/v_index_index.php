@@ -97,6 +97,7 @@
 					<li class = 'category02'><a href="/producers/category02/딸기">딸기</a></li>
 					<li class = 'category02'><a href="/producers/category02/대추">대추</a></li>
 					<li class = 'category02'><a href="/producers/category02/블루베리">블루베리</a></li>
+					<li class = 'category02'><a href="/producers/category02/매실">매실</a></li>
 				</ul>
 			</li>
 			<li class = 'category01'>국산차
@@ -149,6 +150,30 @@
 					<li class = 'category02'><a href="/producers/category02/곶감">곶감</a></li>
 					<li class = 'category02'><a href="/producers/category02/선인장">선인장</a></li>
 					<li class = 'category02'><a href="/producers/category02/약초">약초</a></li>
+					<li class = 'category02'><a href="/producers/category02/오리고기">오리고기</a></li>
+					<li class = 'category02'><a href="/producers/category02/마늘">마늘</a></li>
+					<li class = 'category02'><a href="/producers/category02/고구마">고구마</a></li>
+					<li class = 'category02'><a href="/producers/category02/연근">연근</a></li>
+					<li class = 'category02'><a href="/producers/category02/자두">자두</a></li>
+					<li class = 'category02'><a href="/producers/category02/사슴고기">사슴고기</a></li>
+					<li class = 'category02'><a href="/producers/category02/곶감">곶감</a></li>
+					<li class = 'category02'><a href="/producers/category02/장류">장류</a></li>
+					<li class = 'category02'><a href="/producers/category02/오미자">오미자</a></li>
+					<li class = 'category02'><a href="/producers/category02/도라지">도라지</a></li>
+					<li class = 'category02'><a href="/producers/category02/감">감</a></li>
+					<li class = 'category02'><a href="/producers/category02/파프리카">파프리카</a></li>
+					<!--
+					<li class = 'category02'><a href="/producers/category02/다래">다래</a></li>
+					<li class = 'category02'><a href="/producers/category02/망고">망고</a></li>
+					<li class = 'category02'><a href="/producers/category02/고구마">고구마</a></li>
+					<li class = 'category02'><a href="/producers/category02/난">난</a></li>
+					<li class = 'category02'><a href="/producers/category02/미나리">미나리</a></li>
+					<li class = 'category02'><a href="/producers/category02/쏘가리">쏘가리</a></li>
+					<li class = 'category02'><a href="/producers/category02/산수유">산수유</a></li>
+					<li class = 'category02'><a href="/producers/category02/누에">누에</a></li>
+					<li class = 'category02'><a href="/producers/category02/장류">장류</a></li>
+					<li class = 'category02'><a href="/producers/category02/묘목">묘목</a></li>
+					-->
 					<li class = 'category02'><a href="/producers/category02/기타">기타</a></li>
 				</ul>
 			</li>
