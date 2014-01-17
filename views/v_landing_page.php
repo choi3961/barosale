@@ -17,7 +17,11 @@
 		<?php if($num >63): ?>
 		<?php break; ?>
 		<?php endif; ?>
-		<a href="<?=$post['domain_address']?>" target="_blank"><div class = 'box'><?=$post['name'] ?></div></a>
+		<a href="<?=$post['domain_address']?>" target="_blank">
+			<div class = 'box'><?=$post['name'] ?><br><br>
+				<?=$post['local02'] ?><br><?=$post['category02'] ?>
+			</div>
+		</a>
 		<?php $num++; ?>
 	<?php endforeach; ?>
 </div>

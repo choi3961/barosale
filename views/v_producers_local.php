@@ -13,7 +13,9 @@
 	?>
 	<?php foreach($local as $site): ?>
 		<?php if($num <63): ?>
-			<a href="<?=$site['domain_address']?>" target="_blank"><div class = 'box'><?=$site['name'] ?></div></a>
+			<a href="<?=$site['domain_address']?>" target="_blank">
+				<div class = 'box'><?=$site['name'] ?><br><br><?=$site['local02'] ?>
+					<?=$site['category02'] ?></div></a>
 	 	<?php endif; ?>
 	 	<?php	$num++; ?>
 	<?php endforeach; ?>

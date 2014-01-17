@@ -37,9 +37,7 @@ class producers_controller extends base_controller{
 	public function local($part){
         //$temp = $_POST['local'];
         //echo $temp;
-        $q="SELECT 
-            domain_address,
-            name
+        $q="SELECT *
             FROM sites
             WHERE local = '$part' order by rand();";
 
@@ -138,9 +136,7 @@ class producers_controller extends base_controller{
         $this->template->content->content02->part = $part;
         //$temp = $_POST['category02'];
 
-        $q="SELECT 
-            domain_address,
-            name
+        $q="SELECT *
             FROM sites
             WHERE category02 = '$part' order by rand();";
 
