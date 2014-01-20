@@ -194,5 +194,110 @@ class administrator_controller extends base_controller{
 			//echo "</pre>";
 		}
 	}
+
+
+	/*
+		This is for auto update the files.
+	*/
+	public function file_update(){
+
+//////////////////////
+		$array = scandir('c://wamp/www/barosale/views');
+		echo "<pre>";
+		print_r($array);
+		echo "</pre>";
+
+		foreach($array as $arr){
+			//$this -> auto_update($arr);  //calls function for updating all the files in barosale.
+			$this -> auto_update2($arr);  //calls function for updating small part of barosale.
+		}
+	}
+
+	//This is for updating small part of barosale.
+	function auto_update2($arr2){
+		
+		if($arr2=='..' || $arr2=='.git' || $arr2=='.'  ||$arr2 =='.htaccess'){
+			echo "there--here<br>";
+		}
+
+		else{
+			echo "<br><br>This is start: &&&&&&&&&& <br>";
+
+			if(is_dir($arr2)){
+				echo $arr2. " is directory<br>";
+
+				$arr3 = scandir($arr2);
+
+				foreach ($arr3 as $arr4) {
+				//here you should call auto_update if it is directory.
+				$this->auto_update($arr4);
+				}
+			}
+
+			else{
+				echo $arr2 ." is not directory<br>";
+				$temp = file_get_contents('views/'.$arr2);
+				//$path = realpath($arr2);
+
+				//if(!$path){
+				//	echo "empty***********<br>";
+				//}	
+
+
+				$handle = fopen('views/'.$arr2, 'w');
+				fwrite($handle, $temp);
+				fclose($handle);				
+			}
+		}
+	}
+
+	//This is for updating total files in barosale.
+	function auto_update($arr2){
+			
+		if($arr2=='..' || $arr2=='.git' || $arr2=='.'  ||$arr2 =='.htaccess'){
+			echo "there--here<br>";
+		}
+
+		else{
+			echo "<br><br>This is start: &&&&&&&&&& <br>";
+
+			$dir = dirname($arr2);
+
+			if(is_dir($arr2)){
+				echo $arr2. " is directory<br>";
+
+				$arr3 = scandir($arr2);
+
+				foreach ($arr3 as $arr4) {
+				//here you should call auto_update if it is directory.
+				$this->auto_update($arr4);
+				}
+			}
+
+			else{
+
+				echo $arr2 ." is not directory<br>";
+				//$temp = file_get_contents($arr2);
+				$path = realpath($arr2);
+
+				if(!$path){
+					echo "empty***********<br>";
+
+				}	
+
+
+				echo $path;
+				echo "<br>";
+
+				echo "<br>";
+
+				//$handle = fopen($path, 'r');
+				//fwrite($handle, $temp);
+				//fclose($handle);				
+			}
+		}
+	}
+
+
 }
 ?>

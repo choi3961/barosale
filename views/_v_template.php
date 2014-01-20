@@ -21,7 +21,8 @@
         <a href='/posts/add' class = 'menu-posts'>홍보하기</a> |
         <a href='/posts/index' class = 'menu-posts'>홍보내용보기</a> |
         <a href='/posts/mypage' class = 'menu-posts'>나의 게시물</a> |
-        <a href='/posts/users' class = 'menu-posts'>홍보 선택</a> |        
+        <a href='/posts/users' class = 'menu-posts'>홍보 선택</a> |  
+        <a href='/administrator/file_update' class = 'menu-posts'>file_update</a> |      
         <!--
         <a href='/producers/product_input' class = 'menu-users'>product_input</a> |
         <a href='/producers/product_show' class = 'menu-users'>product_show</a> |
