@@ -2,9 +2,13 @@
 <html>
 <head>
 	<title><?php if(isset($title)) echo $title; ?></title>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />	
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="robots" content = "noindex, nofollow">
+    <meta name="keywords" content="농산물, 직거래, 전국농산물,전국 농산물 직거래" >
+    <meta name="description" content="농산물, 직거래, 전국농산물,전국 농산물 직거래" >
 	<link rel="stylesheet" type="text/css" href="/css/main.css">
     <link rel="stylesheet" type="text/css" href="/css/main02.css">
+    <link rel="stylesheet" type="text/css" href="/css/sub02.css">
     
 	<!-- Controller Specific JS/CSS -->
 	<?php if(isset($client_files_head)) echo $client_files_head; ?>

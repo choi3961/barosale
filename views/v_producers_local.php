@@ -2,6 +2,7 @@
 	This shows the farmers' sites according to the local area.
 -->
 <div class = 'local-title'>
+	<img src="../../images/<?=$part?>.jpg" alt = '<?=$part?> 농산물' width='70px' height = '50px'>
 	<?php echo $part ?>
 	농산물 직거래 사이트 모음
 </div>
