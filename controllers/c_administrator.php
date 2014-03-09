@@ -204,7 +204,7 @@ class administrator_controller extends base_controller{
 		echo "hello";
 
 //////////////////////
-		$array = scandir('c://wamp/www/barosale/views');
+		$array = scandir('views');
 		echo "<pre>";
 		print_r($array);
 		echo "</pre>";
