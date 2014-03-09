@@ -201,6 +201,8 @@ class administrator_controller extends base_controller{
 	*/
 	public function file_update(){
 
+		echo "hello";
+
 //////////////////////
 		$array = scandir('c://wamp/www/barosale/views');
 		echo "<pre>";
